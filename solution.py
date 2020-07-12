@@ -10,3 +10,4 @@ def checkArmstrong(num):
         if sum==num:
                 return True
         return False
+
