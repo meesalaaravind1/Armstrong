@@ -3,5 +3,10 @@
 
 def checkArmstrong(num):
         # Your code goes here
-
-       return True
+        li=list(str(num))
+        sum=0
+        for i in li:
+                sum+=int(i)**3
+        if sum==num:
+                return True
+        return False
